@@ -1,0 +1,27 @@
+Source: erlang-dhcp-server
+Section: net
+Priority: optional
+Maintainer: Ruslan Babayev <ruslan@babayev.com>
+Build-Depends: debhelper (>= 5), autotools-dev
+Standards-Version: 3.7.2
+
+Package: erlang-dhcp-server
+Architecture: any
+Depends: erlang
+Description: Erlang DHCP server
+ The Dynamic Host Configuration Protocol (DHCP) provides a framework
+ for passing configuration information to hosts on a TCPIP network.
+ DHCP is based on the Bootstrap Protocol (BOOTP), adding the
+ capability of automatic allocation of reusable network addresses and
+ additional configuration options.  DHCP captures the behavior of
+ BOOTP relay agents, and DHCP participants can interoperate with BOOTP
+ participants.
+ .
+ This program is a high performance multithreaded DHCP server written
+ entirely in Erlang. It strives to be fully functional, and RFC compliant.
+ .
+ The main advantages of erlang-dhcp-server compared to other DHCP servers are
+ performance and elegance. The performance comes from the underlying Erlang
+ system and its ability to handle concurrent processes in an efficent way.
+ Its elegance comes from Erlang as well. Network servers don't have to be
+ written in ugly adhoc languages.

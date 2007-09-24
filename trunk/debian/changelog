@@ -1,0 +1,5 @@
+erlang-dhcp-server (1.0.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Ruslan Babayev <ruslan@babayev.com>  Sun, 23 Sep 2007 23:57:27 -0700
